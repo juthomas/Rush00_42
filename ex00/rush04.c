@@ -6,7 +6,7 @@
 /*   By: juthomas <juthomas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/01 22:14:32 by juthomas          #+#    #+#             */
-/*   Updated: 2021/07/03 20:24:55 by juthomas         ###   ########.fr       */
+/*   Updated: 2021/07/04 16:31:03 by juthomas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,9 +48,9 @@ void	rush(int32_t x, int32_t y)
 	tmp_y = 0;
 	while (tmp_y < y)
 	{
+		tmp_x = 0;
 		while (tmp_x < x)
 		{
-			tmp_x = 0;
 			fill_caracter(x, y, tmp_x, tmp_y);
 			tmp_x++;
 		}

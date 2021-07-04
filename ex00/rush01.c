@@ -36,9 +36,9 @@ void	rush(int32_t x, int32_t y)
 	tmp_y = 0;
 	while (tmp_y < y)
 	{
+		tmp_x = 0;
 		while (tmp_x < x)
 		{
-			tmp_x = 0;
 			fill_caracter(x, y, tmp_x, tmp_y);
 			tmp_x++;
 		}
