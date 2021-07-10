@@ -6,7 +6,7 @@
 /*   By: juthomas <juthomas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/01 22:14:39 by juthomas          #+#    #+#             */
-/*   Updated: 2021/07/04 16:30:20 by juthomas         ###   ########.fr       */
+/*   Updated: 2021/07/10 20:51:34 by juthomas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,10 @@ void	rush(int32_t x, int32_t y)
 	int32_t	tmp_y;
 	int32_t	tmp_x;
 
+	if (y <= 0 || y <= 0)
+	{
+		return ;
+	}
 	tmp_y = 0;
 	while (tmp_y < y)
 	{
